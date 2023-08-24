@@ -50,7 +50,7 @@ struct NewsObject: View {
                 .foregroundColor(.black)
                 .lineLimit(2)
                 .frame(width: 55, alignment: .center)
-                .font(.system(size: 10))
+                .font(.system10normal)
                 .multilineTextAlignment(.center)
             
             

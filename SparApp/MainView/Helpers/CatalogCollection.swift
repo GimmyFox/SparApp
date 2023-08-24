@@ -14,7 +14,7 @@ struct CatalogCollection: View {
             ForEach(model, id: \.id) { model in
                 Text(model.catalogName)
                     .foregroundColor(.black)
-                    .font(.system(size: 18, weight: .bold))
+                    .font(.system18bold)
                     .padding(.horizontal)
                 createObjects(items: model.items)
             }
@@ -54,9 +54,9 @@ struct ItemCell: View {
             HStack {
                 Group {
                     Text("\(vm.model.price.clean)")
-                        .font(.system(size: 12, weight: .bold))
+                        .font(.system12bold)
                     + Text("₽/шт")
-                        .font(.system(size: 12))
+                        .font(.system12normal)
                 }
                 .foregroundColor(.black)
                 
@@ -80,7 +80,7 @@ struct ItemCell: View {
                         
                         Text(disc.rawValue)
                             .foregroundColor(.black)
-                            .font(.system(size: 10))
+                            .font(.system10normal)
                             .padding(.leading)
                             .padding([.vertical, .trailing], 2)
                     }

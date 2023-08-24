@@ -22,6 +22,7 @@
 		977F21E22A960D2900AB9BAF /* Double + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F21E12A960D2900AB9BAF /* Double + ext.swift */; };
 		977F21E42A96148C00AB9BAF /* View + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F21E32A96148C00AB9BAF /* View + ext.swift */; };
 		977F21E92A961EC100AB9BAF /* Color + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F21E82A961EC100AB9BAF /* Color + ext.swift */; };
+		977F21EB2A9662C100AB9BAF /* Font + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F21EA2A9662C000AB9BAF /* Font + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		977F21E12A960D2900AB9BAF /* Double + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + ext.swift"; sourceTree = "<group>"; };
 		977F21E32A96148C00AB9BAF /* View + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + ext.swift"; sourceTree = "<group>"; };
 		977F21E82A961EC100AB9BAF /* Color + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + ext.swift"; sourceTree = "<group>"; };
+		977F21EA2A9662C000AB9BAF /* Font + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				977F21E12A960D2900AB9BAF /* Double + ext.swift */,
 				977F21E32A96148C00AB9BAF /* View + ext.swift */,
 				977F21E82A961EC100AB9BAF /* Color + ext.swift */,
+				977F21EA2A9662C000AB9BAF /* Font + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				977F21DD2A9603D400AB9BAF /* FeaturesCollection.swift in Sources */,
 				977F21C32A95F02700AB9BAF /* ContentView.swift in Sources */,
+				977F21EB2A9662C100AB9BAF /* Font + ext.swift in Sources */,
 				977F21E42A96148C00AB9BAF /* View + ext.swift in Sources */,
 				977F21CF2A95F0E800AB9BAF /* MainView.swift in Sources */,
 				977F21D92A95F81300AB9BAF /* NewsCollection.swift in Sources */,

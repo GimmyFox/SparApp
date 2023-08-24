@@ -37,7 +37,7 @@ struct MainView: View {
                 HStack {
                     VStack {
                         Group {
-                            Text("0").font(.system(size: 24, weight: .bold)) + Text("  бонусов").font(.system(size: 14, weight: .bold))
+                            Text("0").font(.system24bold) + Text("  бонусов").font(.system14bold)
                         }
                         .foregroundColor(.black)
                         Spacer()
