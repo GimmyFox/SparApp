@@ -21,11 +21,6 @@ struct DiscountInfiniteScroll: View {
                     RoundedRectangle(cornerRadius: 16)
                         .frame(width: UIScreen.main.bounds.width - 48, height: 175)
                         .foregroundColor(.clear.random().opacity(0.5))
-                        .onAppear {
-                            if models.last?.id == model.id {
-                                
-                            }
-                        }
                 }
             }
             .padding(.horizontal)

@@ -16,7 +16,7 @@ struct MainView: View {
                 CustomNavigation(text: $vm.searchText)
                 ScrollView {
                     VStack(spacing: 15) {
-                        NewsCollection(models: $vm.news)
+                        NewsCollection(models: vm.news)
                         DiscountInfiniteScroll(models: vm.discounts)
                         qrRectangle
                         FeaturesCollection(models: vm.features)

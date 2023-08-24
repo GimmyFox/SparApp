@@ -8,6 +8,8 @@
 import Foundation
 
 
+//MARK: вместо id можно было использовать UUID()
+
 struct NewsModel {
     let id: Int
     let title: String
